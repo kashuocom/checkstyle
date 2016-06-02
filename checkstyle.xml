@@ -182,7 +182,7 @@
             <property name="period" value="" />
         </module>
         <module name="JavadocParagraph">
-             <property name="allowNewlineParagraph" value="true"/>
+             <property name="allowNewlineParagraph" value="false"/>
         </module>
         <module name="AtclauseOrder">
             <property name="tagOrder" value="@param, @return, @throws, @deprecated"/>
@@ -199,12 +199,7 @@
             <property name="allowMissingJavadoc" value="true"/>
         </module>
 
-    <!-- <module name="JavadocType">
-    <property name="scope" value="package"/>
-      </module> -->
-      <!--  <module name="JavadocVariable">
-       <property name="scope" value="package"/>
-      </module> -->
+
       <module name="JavadocStyle">
         <property name="checkFirstSentence" value="false"/>
        <property name="checkEmptyJavadoc" value="false"/>
